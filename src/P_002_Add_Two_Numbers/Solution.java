@@ -24,10 +24,8 @@ public class Solution {
                 l2= l2.next;
         }
 
-        if(carry == 1){
+        if(carry == 1)
             currentNode.next= new ListNode(1);
-        }
-
 
         return returnedNode.next;
     }
